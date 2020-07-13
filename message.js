@@ -125,18 +125,19 @@ document.querySelector(".message-button").addEventListener("click", function() {
   }
 
 
-  document.addEventListener("keyup", function (event) {
-    console.log(event)
 
 
-
-//if the key being pressed is enter
-if (event.key == "Enter") {
+//if the key being pressed is enter in the textarea.message space
+document.querySelector("textarea.message").addEventListener('keyup', function(event) {
+  if (event.key == "Enter") {
     messageDiv();
     delay();
     clear();
     }
 })
+
+
+
 
 
 
