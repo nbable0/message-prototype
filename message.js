@@ -56,7 +56,7 @@ document.querySelector(".message-button").addEventListener("click", function() {
     time.className = 'message-time'
     const randomText = [
         "Great, I can absolutely get you an offer by then. Any other details I should know?",
-        "Perfect. I'll talk to you early next week. ",
+        "Perfect. I'll talk to you early next week.",
         "Ut id velit a metus porta sagittis. Integer lacus nulla, tincidunt ut felis in, viverra commodo est. Duis ultrices consequat risus ac interdum. ",
         "Etiam ac ante sem. Nam nec sem vestibulum, vehicula ipsum consectetur, sollicitudin nisi. Ut varius, sem quis tempus elementum, mauris enim vulputate ante, in dignissim tortor dui eu augue.",
         "Maecenas sodales scelerisque magna ac laoreet. Sed molestie felis est, sed auctor ipsum suscipit non. Donec interdum auctor fringilla. Mauris fermentum dapibus porta. Integer id dolor lacinia."

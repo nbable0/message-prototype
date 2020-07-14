@@ -146,6 +146,12 @@ body {
 .name {
     font-weight: 600;
 }
+
+.name-prop {
+  font-weight: 600;
+  font-size: 11px;
+  margin-top: 4px;
+}
   
 .inner-grid {
     display: grid;
@@ -592,6 +598,35 @@ img.large:hover {
   border-radius: 5px;
   margin-bottom: 4px;
 }
+
+/********* Avatar Double **********/
+.av-container {
+ width: 48px;
+ height: 48px;
+}
+
+.dual-avatar {
+ background: #ddd;
+ border-radius: 100px;
+ height: 32px;
+ width: 32px;
+ border: 1px solid #d8d8d8;
+}
+
+.av-top {
+ background: #ddd;
+ z-index: 0;
+}
+
+.av-bottom {
+ z-index: 100;
+ background: #ddd;
+ top: -19px;
+ position: relative;
+ left: 16px;
+}
+
+
 
 
 

@@ -207,7 +207,13 @@
 
   .center-name {
       font-weight: 600;
-      margin-left: 16px;
+      margin: 4px 16px;
+      font-size: 18px;
+  }
+
+  .center-prop {
+    font-size: 16px;
+    color: #4A4A4A;
   }
 
 
