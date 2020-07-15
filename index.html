@@ -12,6 +12,7 @@
         <link href="https://files.crexi.com/web-s/content/img/favicon.ico" rel="icon" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="messages.css">
+        <link rel="stylesheet" href="dropdown.css">
     </head>
     <body>
 
@@ -50,10 +51,15 @@
             <div class="top-left">
                 <h1 class="header">Messages</h1>
                 <div class="icon-container">
-                    <div class="icon">
-                        <img src="assets/3-dot.svg"/>                       
+                                      <!-- DROPDOWN STUFF-->
+                  <div class="dropdown-content">
+                    <div class="dropdown-option">Select All</div>
+                    <div class="dropdown-option">Mark as Read</div>
+                </div>
+                    <div class="icon three-dot-menu three-dot-sel">
+                        <img class ="three-dot-sel" src="assets/3-dot.svg"/>                       
                     </div>
-                 <!--   <div class="icon pencil">
+         <!--   <div class="icon pencil">
                         <img src="assets/pencil.svg" />
                     </div>-->
                 </div>
@@ -66,7 +72,7 @@
                 </input></div>
               
               <div class="contact-slat slat-active">
-                <div class="av-container avatar">
+                <div class="av-container">
                     <img class="dual-avatar av-top" src="assets/7-11.png"/>
                     <img class="dual-avatar av-bottom" src="assets/avatar.png"/>
                 </div>
@@ -78,22 +84,11 @@
                         </div>
                         <div class="time">11:12AM</div>
                     </div>
-                    <div class="preview">Hey Jon, I'm very interested in your listing for the 7-11 on Main. Whe...</div>
+                    <div class="preview">Hey Jon, I'm very interested in your listing for the 7-11 on Main...</div>
                   </div>
               </div>
 
-              <div class="contact-slat">
-                <img class="avatar" src="assets/avatar.png" />
-                <div class="inner-grid">
-                  <div class="upper">
-                      <div class="name">Gillian Vanderbilt</div>
-                      <div class="time">11:12AM</div>
-                  </div>
-                  <div class="preview">Hey Jon, Doing great, how about your self? Did you get a chance to give any more thought to...</div>
-                </div>
-            </div>
-
-
+              <!-- Contact -->
               <div class="contact-slat">
                 <img class="avatar" src="assets/avatar-2.png" />
                 <div class="inner-grid">
@@ -104,6 +99,26 @@
                   <div class="preview">Hey Jon, What are your thoughts on moving forward with the property for next...</div>
                 </div>
             </div>
+
+              <!-- Contact -->
+              <div class="contact-slat">
+                <div class="av-container">
+                    <img class="dual-avatar av-top" src="assets/grainger.png"/>
+                    <img class="dual-avatar av-bottom" src="assets/avatar.png"/>
+                </div>
+                <div class="inner-grid">
+                  <div class="upper">
+                    <div class="slat-name-prop">
+                        <div class="name">Gillian Vanderbilt</div>
+                        <div class="name-prop">Grainger tools on 5434 Sycamore Ave Baltimore, MD</div>
+                    </div>
+                      <div class="time">11:12AM</div>
+                  </div>
+                  <div class="preview">Did you get a chance to give any more thought to...</div>
+                </div>
+            </div>
+
+            
 
         </div>
           
@@ -304,5 +319,6 @@
         <script src="message.js" async defer></script>
         <script src="toggle.js" async defer></script>
         <script src="infotoggle.js" async defer></script>
+        <script src="dropdown.js" async defer></script>
     </body>
 </html>
