@@ -43,7 +43,7 @@ document.querySelector(".message-button").addEventListener("click", function() {
     const messageContainer = document.createElement('div');
     messageContainer.className = 'upper-message';
     const img = document.createElement("img");
-        img.src = "assets/avatar.png";
+        img.src = document.querySelector(".avatar.small").src //feeding in current src rather than set "assets/avatar.png". allows change potential
         img.alt = "avatar";
         img.className = 'avatar small'
     const nameContainer = document.createElement('div');
